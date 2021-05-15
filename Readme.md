@@ -1,1 +1,1 @@
-this is mygit
+Repository for Homeworks
