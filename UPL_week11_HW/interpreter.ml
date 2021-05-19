@@ -46,7 +46,7 @@ let rec interp_e (s : Store.t) (e : Ast.expr) : Store.value =
         begin
                 match expr1_res, expr2_res with
                 | NumV r1 , NumV r2 -> 
-                (* *)     
+                if r1 < r2 then true else false     
                | _ -> failwith ""
 
         end                
